@@ -23,7 +23,7 @@ namespace OrleansCache.Actors
                 throw new ArgumentException("Identifier not specified.");
             }
 
-            if (cmd.Longitude.Equals(default(double)))
+            if (cmd.Latitude.Equals(default(double)))
             {
                 throw new ArgumentException("Latitude is 0");
             }
